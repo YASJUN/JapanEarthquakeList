@@ -7,17 +7,19 @@
 		<style type="text/css">
 		*{
 			font-size: 20px;
+			transition: 1s;
 			
 		}
 			.firstinfo{
 				width: 300px;
-				height: 460px;
+				height: 480px;
 				align-items: center;
 				line-height: 20px;
 				justify-content: center;
 				background-color:#1D2A41 ;
 				border-radius: 20px;
 				color: white;
+				margin-bottom: 10px;
 			}
 			.info{
 				text-align: center;
@@ -53,6 +55,7 @@
 				font-size: 24px;
 				line-height: normal;
 				margin-bottom: 15px;
+				/* justify-content: center; */
 				line-height: 40px;
 			}
 			.tsunami{
@@ -65,6 +68,63 @@
 				line-height: 50px;
 				border-radius: 10px;
 			}
+			.listshindo{
+				background-color: #008000;
+				width: 70px;
+				height: 90px;
+				border-radius: 10px;
+				font-size: 12px;
+				text-align: center;
+				float: left;
+				margin-left: 10px;
+			}
+			.listshindo span{
+				font-size: 50px;
+				position: absolute;
+				transform: translateY(200%) translateX(-85%);
+				width: 70px;
+			}
+			.listinfo{
+				float: right;
+				/* background-color: #00BFFF; */
+				width: calc(100% - 100px);
+				margin-right: 10px;
+				line-height: 28px;
+				height: 90px;
+			}
+			.listdepth{
+				float: left;
+				
+			}
+			.listdepth,.listdepth span{
+				font-size: 16px;
+			}
+			.listmagnitude{
+				float: right;
+				font-size: 18px;
+				/* width: 25%; */
+				/* margin-right: 5px; */
+			}
+			.listmagnitude span{
+				font-size: 28px;
+			}
+			.listepicenter{
+				font-size: 24px;
+			}
+			.listtime{
+				font-size: 18px;
+			}
+			.listshindo,.listinfo{
+				margin-bottom: 15px;
+			}
+			.colorblock{
+				background-color: #FF0000;
+				height: 25px;
+				width: 10px;
+				display: inline-block;
+				margin-left: 2px;
+				vertical-align: top;
+			}
 		</style>
 		<div id="">
 			
@@ -75,7 +135,7 @@
 			</div>
 			<br>
 			<div id="" class="shindo">
-				<span id="" style="font-size: 30px;transform: translateX(20px);">
+				<span id="" style="font-size: 30px;vertical-align: top;">
 					最大震度
 				</span>
 				<span id="" class="shindonum">2</span>
@@ -83,7 +143,7 @@
 			
 			<div id="" style="margin-left: 20px;">
 				<div id="">10月19日 3:35ごろ</div>
-				<div id="" class="epicenter">三陸沖</div>
+				<div id="" class="epicenter">青森県東方沖</div>
 				<div id="" style="margin-bottom: 15px;">で地震がありました</div>
 			</div>
 			<div id="" class="magnitude">
@@ -98,7 +158,115 @@
 			</div>
 		</div>
 		
-		
+		<div id="" class="firstinfo">
+			<div id="" class="info">
+				地震履歴
+			</div>
+			<br>
+			<div id="" class="list">
+				<div id="" class="listshindo">
+					最大震度 <span id="">1</span>
+				</div>
+				<div id="" class="listinfo">
+					<div id="" class="listepicenter">
+						青森県東方沖
+					</div>
+					<div id="" class="listtime">
+						10月19日 3:35ごろ
+					</div>
+					
+					<div id="" class="listlast">
+						<div id="" class="listdepth">
+							深さ 
+							<span id="">ごく浅い</span>
+							<div class="colorblock" style=""></div>
+						</div>
+						<div id="" class="listmagnitude">
+							M <span id="">4.3</span><div class="colorblock" style=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div id="" class="list">
+				<div id="" class="listshindo">
+					最大震度 <span id="">1</span>
+				</div>
+				<div id="" class="listinfo">
+					<div id="" class="listepicenter">
+						青森県東方沖
+					</div>
+					<div id="" class="listtime">
+						10月19日 3:35ごろ
+					</div>
+					
+					<div id="" class="listlast">
+						<div id="" class="listdepth">
+							深さ 
+							<span id="">ごく浅い</span>
+							<div class="colorblock" style=""></div>
+						</div>
+						<div id="" class="listmagnitude">
+							M <span id="">4.3</span><div class="colorblock" style=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			<div id="" class="list">
+				<div id="" class="listshindo">
+					最大震度 <span id="">1</span>
+				</div>
+				<div id="" class="listinfo">
+					<div id="" class="listepicenter">
+						青森県東方沖
+					</div>
+					<div id="" class="listtime">
+						10月19日 3:35ごろ
+					</div>
+					
+					<div id="" class="listlast">
+						<div id="" class="listdepth">
+							深さ 
+							<span id="">ごく浅い</span>
+							<div class="colorblock" style=""></div>
+						</div>
+						<div id="" class="listmagnitude">
+							M <span id="">4.3</span><div class="colorblock" style=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="" class="list">
+				<div id="" class="listshindo">
+					最大震度 <span id="">1</span>
+				</div>
+				<div id="" class="listinfo">
+					<div id="" class="listepicenter">
+						青森県東方沖
+					</div>
+					<div id="" class="listtime">
+						10月19日 3:35ごろ
+					</div>
+					
+					<div id="" class="listlast">
+						<div id="" class="listdepth">
+							深さ 
+							<span id="">ごく浅い</span>
+							<div class="colorblock" style=""></div>
+						</div>
+						<div id="" class="listmagnitude">
+							M <span id="">4.3</span><div class="colorblock" style=""></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
 	</head>
 	<body>
 	</body>
